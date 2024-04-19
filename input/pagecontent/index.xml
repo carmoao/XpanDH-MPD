@@ -1,27 +1,19 @@
 <div xmlns="http://www.w3.org/1999/xhtml"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd" lang="en">
 
-  <blockquote class="stu-note">
-    <p>The specification herewith documented is a working specification, and may not be used for any implementation purposes. 
-    No liability can be inferred from the use or misuse of this specification, or its consequences.</p>
+  <blockquote class="dragon">
+    <p>This guide is kept only for documentation purposes, representing an official deliverable of the XpanDH project.</p>
+         <b>This guide is not intended to replace or override any other Implementation Guide that will be specified by Standard Development Organizations, MyHealth@Eu and/or JA-09</b>
+    <p>Please refer to the <b>the <a href="https://build.fhir.org/ig/hl7-eu/mpd/">HL7 Europe Medicinal Prescription and Dispense FHIR IG</a></b>for the on development specification related to this domain</p>
   </blockquote>
 
   <a name="scope"></a>
   <h3>Scope</h3>
   <p>
-    This is the Medicinal Prescription and Dispense HL7 FHIR Implementation Guide for the XPanDH project, created to assist the work of the pilots for the <a href="https://build.fhir.org/ig/hl7-eu/xpandh/index.html#adoption-domains">XpanDH experimentation bubbles</a>.
-  </p>
+    This is the Medicinal Prescription and Dispense HL7 FHIR Implementation Guide deveopped by the XPanDH project, created to support the development of the European EHRxF for this domain. </p>
 
-
-  <a name="scope"></a>
+  <a name="intro"></a>
   <h3>Introduction</h3>
-
-  <blockquote class="dragon">
-    <p>This specification has been created to contribute to the development of the European EHRxF for this domain.</p>
-    <p>
-      <b>This guide is not intended to replace or override the <a href="https://hl7.eu/fhir/laboratory/">HL7 Europe Medicinal Prescription and Dispense FHIR IG</a> or any other Implementation Guide that will be specified by MyHealth@Eu and/or JA-09</b>
-    </p>
-  </blockquote>
 
   <a name="other-guides"></a>
   <h4>Relationships with other guides</h4>
@@ -51,16 +43,9 @@
     </ul>
   </p>
 
-
   <a name="project"></a>
   <h4>The project</h4>
 An overview of the project - including the description of some of the used concepts - is provided in the <a href="https://build.fhir.org/ig/hl7-eu/xpandh/index.html"> General XpanDH FHIR IG.</a>
-
-
-  <a name="dependencies"></a>
-  <h3>Dependencies</h3>
-
-{% include dependency-table.xhtml %}
 
   <a name="x-versions"></a>
   <h3>Cross Version Analysis</h3>
@@ -76,9 +61,5 @@ An overview of the project - including the description of some of the used conce
   <h3>IP Statements</h3>
 
 {% include ip-statements.xhtml %}
-
-  <a name="authors"></a>
-  <h3>Authors and Contributors</h3>
-
 
 </div>
